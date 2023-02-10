@@ -1,11 +1,11 @@
 {
     "iam": {
         "entry": [
-            "/apps/iam/iam.1675259325854.778d564bc519bafdebe9.js"
+            "/apps/iam/iam.6efc73499c8222f308d4.js"
         ],
         "modules": [
-            "/apps/iam/js/715.1675259325884.778d564bc519bafdebe9.js",
-            "/apps/iam/css/715.08d5a8574fa7c7b297e7.css"
+            "/apps/iam/js/556.6efc73499c8222f308d4.js",
+            "/apps/iam/css/556.daa6b2214c3ed2f53ac2.css"
         ]
     }
 }
