@@ -1,10 +1,10 @@
 {
     "iam": {
         "entry": [
-            "/apps/iam/iam.b96079d922346e9afcdc.js"
+            "/apps/iam/iam.6e5cd39bd5a3d0a98666.js"
         ],
         "modules": [
-            "/apps/iam/js/556.b96079d922346e9afcdc.js",
+            "/apps/iam/js/556.6e5cd39bd5a3d0a98666.js",
             "/apps/iam/css/556.daa6b2214c3ed2f53ac2.css"
         ]
     }
