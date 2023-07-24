@@ -1,10 +1,10 @@
 {
     "iam": {
         "entry": [
-            "/beta/apps/iam/iam.5267d16ed26f9fe052c7.js"
+            "/beta/apps/iam/iam.05bfb7143566dd7b7052.js"
         ],
         "modules": [
-            "/beta/apps/iam/js/528.5267d16ed26f9fe052c7.js",
+            "/beta/apps/iam/js/528.05bfb7143566dd7b7052.js",
             "/beta/apps/iam/css/528.08d5a8574fa7c7b297e7.css"
         ]
     }
