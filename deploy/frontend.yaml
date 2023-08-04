@@ -1,0 +1,39 @@
+apiVersion: v1
+kind: Template
+metadata:
+  name: iam-ui-build
+objects:
+  - apiVersion: cloud.redhat.com/v1alpha1
+    kind: Frontend
+    metadata:
+      name: remediations
+    spec:
+      envName: ${ENV_NAME}
+      title: Remediations
+      deploymentRepo: https://github.com/RedHatInsights/iam-ui-build
+      API:
+        versions:
+          - v1
+      frontend:
+        paths:
+          - /apps/remediations
+      image: ${IMAGE}:${IMAGE_TAG}
+      navItems:
+        - appId: "iam",
+          title: "Authentication Factors",
+          href: "/iam/authentication-policy/authentication-factors",
+          product: "Identity & Access Management"
+      module:
+        manifestLocation: "/apps/iam/fed-mods.json"
+        modules:
+          - id: "authentication-policy"
+            module: "./RootApp"
+            routes:
+              - pathname: /iam/authentication-policy
+parameters:
+  - name: ENV_NAME
+    required: true
+  - name: IMAGE_TAG
+    required: true
+  - name: IMAGE
+    value: quay.io/cloudservices/iam-console
