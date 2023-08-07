@@ -19,9 +19,9 @@ objects:
           - /apps/remediations
       image: ${IMAGE}:${IMAGE_TAG}
       navItems:
-        - appId: "iam",
-          title: "Authentication Factors",
-          href: "/iam/authentication-policy/authentication-factors",
+        - appId: "iam"
+          title: "Authentication Factors"
+          href: "/iam/authentication-policy/authentication-factors"
           product: "Identity & Access Management"
       module:
         manifestLocation: "/apps/iam/fed-mods.json"
