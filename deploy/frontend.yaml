@@ -1,22 +1,22 @@
 apiVersion: v1
 kind: Template
 metadata:
-  name: iam-console
+  name: iam
 objects:
   - apiVersion: cloud.redhat.com/v1alpha1
     kind: Frontend
     metadata:
-      name: iam-console
+      name: iam
     spec:
       envName: ${ENV_NAME}
       title: "iam console"
-      deploymentRepo: https://github.com/RedHatInsights/iam-ui-build
+      deploymentRepo: https://gitlab.cee.redhat.com/it-user/admin-self-service
       API:
         versions:
           - v1
       frontend:
         paths:
-          - /apps/iam-console
+          - /apps/iam
       image: ${IMAGE}:${IMAGE_TAG}
       navItems:
         - appId: "iam"
