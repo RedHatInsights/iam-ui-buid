@@ -10,7 +10,7 @@ objects:
     spec:
       envName: ${ENV_NAME}
       title: "iam console"
-      deploymentRepo: https://gitlab.cee.redhat.com/it-user/admin-self-service
+      deploymentRepo: https://gitlab.cee.redhat.com/it-user/iam-console
       API:
         versions:
           - v1
