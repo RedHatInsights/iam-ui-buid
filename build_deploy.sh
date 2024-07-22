@@ -21,10 +21,9 @@ BUILD_RESULTS=$?
 # Stubbed out for now
 mkdir -p $WORKSPACE/artifacts
 cat << EOF > $WORKSPACE/artifacts/junit-dummy.xml
-<testsuite tests="1">
-    <testcase classname="dummy" name="dummytest"/>
-</testsuite>
 EOF
+
+source build_jest_report.sh
 
 # teardown_docker test
 exit $BUILD_RESULTS
