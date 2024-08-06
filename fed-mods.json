@@ -1,11 +1,1 @@
-{
-    "iam": {
-        "entry": [
-            "/beta/apps/iam/iam.39cd64454f15ec806109.js"
-        ],
-        "modules": [
-            "/beta/apps/iam/js/14.39cd64454f15ec806109.js",
-            "/beta/apps/iam/css/14.15a09b6e7d64553b788f.css"
-        ]
-    }
-}
+{"name":"iam","version":"1.0.0","extensions":[],"registrationMethod":"callback","baseURL":"/beta/apps/iam/","loadScripts":["iam.89feec3be4ece7b64fa1.js"],"buildHash":"a3b087701f40f310d9cb47c1002341d8"}
