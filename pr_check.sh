@@ -23,7 +23,7 @@ mkdir -p $WORKSPACE/artifacts
 cat << EOF > $WORKSPACE/artifacts/junit-dummy.xml
 EOF
 
-source build_jest_report.sh
+jest
 
 # teardown_docker
 exit $BUILD_RESULTS
