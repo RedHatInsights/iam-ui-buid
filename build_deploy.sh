@@ -10,7 +10,7 @@ export IMAGE="quay.io/cloudservices/iam-console"
 export WORKSPACE=${WORKSPACE:-$APP_ROOT} # if running in jenkins, use the build's workspace
 export APP_ROOT=$(pwd)
 #16 is the default Node version. Change this to override it.
-export NODE_BUILD_VERSION=16
+export NODE_BUILD_VERSION=20
 COMMON_BUILDER=https://raw.githubusercontent.com/RedHatInsights/insights-frontend-builder-common/master
 
 set -exv
@@ -20,10 +20,7 @@ BUILD_RESULTS=$?
 
 # Stubbed out for now
 mkdir -p $WORKSPACE/artifacts
-cat << EOF > $WORKSPACE/artifacts/junit-dummy.xml
-EOF
-
-jest
+cp junit-jest-report.xml $WORKSPACE/artifacts/junit-jest-report.xml
 
 # teardown_docker test
 exit $BUILD_RESULTS
