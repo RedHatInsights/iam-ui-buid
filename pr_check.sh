@@ -22,6 +22,5 @@ BUILD_RESULTS=$?
 mkdir -p $WORKSPACE/artifacts
 cp junit-jest-report.xml $WORKSPACE/artifacts/junit-jest-report.xml
 
-
 # teardown_docker
 exit $BUILD_RESULTS
