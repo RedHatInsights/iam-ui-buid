@@ -3,6 +3,7 @@
 .iam .xml-highlighter{overflow-y:hidden;overflow-x:hidden;padding-bottom:0px}.iam .highlighter-panel{background-color:#eaeaea;height:350px !important;overflow-y:auto;position:relative;top:-10px;padding:0px;white-space:pre-wrap;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;font-size:12px}
 .iam .configuredCard{padding:16px;max-width:600px}.iam .buttonGroup{margin-top:24px}.iam .editIcon{color:dimgray}.iam .editIcon:hover{cursor:pointer}.iam .pf-v5-c-form__group{max-width:880px}
 .iam .customUrl{cursor:pointer}.iam .customPopover{position:relative;text-align:left;margin-left:0px;padding-left:0px;left:0px;top:-3px}.iam code{font-size:11px}
+.iam .audit-info{display:block !important;color:#333 !important;font-size:.875rem !important}
 .iam .customUrl{cursor:pointer}.iam .customPopover{position:relative;text-align:left;margin-left:0px;padding-left:0px;left:0px;top:-3px}.iam code{font-size:11px}
 .iam .cubesIcon{color:dimgray;font-size:64px}.iam .notSetupDiv{text-align:center;margin-top:64px}.iam .initPage{background-color:unset}.iam .hideFeature{display:none}
 :root{--ins-color--orange: #ec7a08}.pf-v5-l-page__main-section.pf-v5-l-page-header.pf-m-dark-200 h1.pf-v5-c-title.pf-m-2xl,.pf-v5-l-page__main-section.pf-v5-l-page-header.pf-m-dark-200 *{color:#fff}.pf-v5-l-page__main-section.pf-v5-l-page-header .pf-v5-c-breadcrumb{display:block;margin-bottom:15px;margin-bottom:.9375rem}
