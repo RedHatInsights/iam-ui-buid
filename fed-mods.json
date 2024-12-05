@@ -1,1 +1,1 @@
-{"name":"iam","version":"1.0.0","extensions":[],"registrationMethod":"callback","baseURL":"/apps/iam/","loadScripts":["iam.c250e536f3b9b9082ccf.js"],"buildHash":"22e2e320fbe400c660c12fa49c4d86e8"}
+{"name":"iam","version":"1.0.0","extensions":[],"registrationMethod":"callback","baseURL":"/apps/iam/","loadScripts":["iam.ead691315a4ec5b5828a.js"],"buildHash":"b2a2dde035193a0f00af2cc785f97e31"}
